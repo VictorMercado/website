@@ -1,0 +1,111 @@
+/* * {
+  box-sizing: border-box;
+} */
+/* @media screen and (min-width: 720px) {
+  .body {
+     font-size: 10px;
+  }
+} */
+/*  */
+
+p {
+  display: inline;
+}
+@media only screen and (min-width: 1500px) {
+  body {
+    background-color: lightblue;
+  }
+  .body {
+     font-size: 100px;
+     background-color: lightblue;
+  }
+  .links {
+    text-decoration-color: red;
+  }
+}
+/*  */
+.body {
+  font-size: 2vw;
+  /* background-color: #333; */
+}
+.navMenu {
+  color: #fff;
+  float: left;
+  width: 15%;
+  height: 100%;
+  border: 5px solid black;
+}
+.header, .subBody {
+  border: 5px solid black;
+  float: left;
+  width: 85%;
+}
+.subBody {
+  text-align: center;
+}
+.header-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  background: lightgrey;
+  border-radius: 7px;
+  text-align: center;
+  margin-top: 7px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.links > a {
+  color: #FFF;
+}
+
+.flex-container {
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.folder {
+  border: 3px solid black;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: hidden;
+}
+.paragraphs {
+  width: 15%;
+}
+.paragraphs > div {
+  color: #fff;
+  border: 2px solid black;
+}
+@keyframes hi {
+    from {color: gold;}
+    to {color: white;}
+}
+.rar:hover {
+	-webkit-animation: sup;
+	-o-animation: sup;
+	animation: sup;
+	animation-duration: 2s;
+}
+@keyframes slide {
+	from { left: -10px; }
+	to { left: 10px; }
+}
+@keyframes sup {
+	from {background-color: black; color: white; display: absolute; display: block;
+		 height: 200px;  margin: 0 auto; text-align: center; width: 200px;}
+
+	to {background-color: white; display: absolute; color: black; right: 100px;
+		width: 100px; height: 100px; display: none;
+		 margin: 0 auto; text-align: center; transform: rotate(180deg); }
+}
+{
+	font-family: 'Bungee', 'Times', serif;
+}
+
+
+
+/* csslint ignore:end */
